@@ -45,15 +45,19 @@ The home page features announcements about events, new hires, and retirees. All 
 
 <img width="1915" height="955" alt="Events standard user view" src="https://github.com/user-attachments/assets/d67e54f5-fcc7-4362-85d8-6f820aeaa7ee" />
 Key:
+
 1. Event type selector
 2. Show upcoming events
+
 To view unreleased events, users can click ‘Show Upcoming’ (2). They will then be able to click ‘View Latest’ to return to released events. Events can be filtered by event type ('Event', ‘Holiday’, ‘Spill’, ‘HR Update’, ‘News’) using the event type selector (1). It defaults to ‘All Types’.
 
 <img width="945" height="542" alt="ee-intranet-home-admin-actions" src="https://github.com/user-attachments/assets/d3dc73b8-4ab3-417c-9aff-16cec321c5b8" />
 Key:
+
 1. New (create new event post)
 2. Edit (update existing event post)
 3. Delete (delete existing event post)
+
 Administrators of the 'Announcements' page have the ability to create, update, and delete event posts. 
 
 
