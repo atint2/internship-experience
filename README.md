@@ -39,25 +39,53 @@ Backend:
 
 ## Website walkthrough
 
+The standard user has access to the home page, calendar, telephone directory, policies and procedures page, and outside links. All of which are accessible in the website header. 
+
 ### Navigating the home page
 
 The home page features announcements about events, new hires, and retirees. All posts can be created, updated, and deleted by admins with the 'EVENTS' role.
 
-<img width="1915" height="955" alt="Events standard user view" src="https://github.com/user-attachments/assets/d67e54f5-fcc7-4362-85d8-6f820aeaa7ee" />
-Key:
+<figure>
+  <img width="1917" height="958" alt="Home page for standard user" src="https://github.com/user-attachments/assets/ea4214b4-632e-44ba-a104-a5f2809b4fa0" />
+  <figcaption>Events view for standard user</figcaption>
+</figure>
 
-1. Event type selector
-2. Show upcoming events
+To view unreleased events, users can click ‘Show Upcoming’. They will then be able to click ‘View Latest’ to return to released events. Events can be filtered by event type ('Event', ‘Holiday’, ‘Spill’, ‘HR Update’, ‘News’) using the event type selector. It defaults to ‘All Types’.
 
-To view unreleased events, users can click ‘Show Upcoming’ (2). They will then be able to click ‘View Latest’ to return to released events. Events can be filtered by event type ('Event', ‘Holiday’, ‘Spill’, ‘HR Update’, ‘News’) using the event type selector (1). It defaults to ‘All Types’.
+<figure>
+  <img width="945" height="542" alt="ee-intranet-home-admin-actions" src="https://github.com/user-attachments/assets/d3dc73b8-4ab3-417c-9aff-16cec321c5b8" />
+  <figcaption>Events view for admin</figcaption>  
+</figure>
 
-<img width="945" height="542" alt="ee-intranet-home-admin-actions" src="https://github.com/user-attachments/assets/d3dc73b8-4ab3-417c-9aff-16cec321c5b8" />
 Key:
 
 1. New (create new event post)
 2. Edit (update existing event post)
 3. Delete (delete existing event post)
 
-Administrators of the 'Announcements' page have the ability to create, update, and delete event posts. 
+Administrators of the 'Announcements' page have the ability to create, update, and delete event posts. All changes are reflected in the database.
+
+<figure>
+  <img width="1914" height="956" alt="Add event form" src="https://github.com/user-attachments/assets/f0f2099d-5f4f-494e-9798-cb84c83dea3b" />
+  <figcaption>Create event post</figcaption>
+</figure>
+
+<figure>
+  <img width="1915" height="958" alt="Add event to calendar" src="https://github.com/user-attachments/assets/fef3afb9-6867-4a74-b53b-a745d9228ecb" />
+  <figcaption>Add event to calendar</figcaption>
+</figure>
+**NOTE**: Events can be added to calendar from the home page. However, once an event has been created, the changes made to it will not be reflected on the calendar.
+
+<figure>
+  <img width="1917" height="955" alt="Update event form" src="https://github.com/user-attachments/assets/f28dbc98-3913-491d-9469-95a2fd3d54dc" />
+  <figcaption>Update event post</figcaption>
+</figure>
+
+
+<figure>
+  <img width="1917" height="958" alt="Delete event confirmation" src="https://github.com/user-attachments/assets/75333594-abd6-423e-9327-9778f8a8d967" />
+  <figcaption>Delete event post</figcaption>
+</figure>
+
 
 
